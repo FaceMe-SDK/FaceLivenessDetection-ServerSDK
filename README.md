@@ -52,7 +52,7 @@ cp ./bin/linux_x86_64/libimutils.so /usr/lib
 #### - Windows
 Contact us by Email support@faceme.tw
 #### - Request license
-Subscribe free trial at our [Subscription Page]()  
+Subscribe free trial at our [Subscription Page](mailto:support@faceme.tw)  
 You will get email with trial license key ("XXXXX-XXXXX-XXXXX-XXXXX").
   
 ## C++ Example
@@ -92,8 +92,8 @@ pip install -r requirement.txt
 python app.py
 ```
 <p align="center">
-  <img width="480" src="https://user-images.githubusercontent.com/122285115/211873670-053fccc6-ffcf-443d-8d6d-6c3e2c161374.png">&emsp;&emsp;
-  <img width="480" src="https://user-images.githubusercontent.com/122285115/211873784-0ba680ca-aad4-4535-bd6c-cefc328afdb3.png">
+  <img width="360" src="https://user-images.githubusercontent.com/122285115/211873670-053fccc6-ffcf-443d-8d6d-6c3e2c161374.png">&emsp;&emsp;
+  <img width="360" src="https://user-images.githubusercontent.com/122285115/211873784-0ba680ca-aad4-4535-bd6c-cefc328afdb3.png">
 </p>
 
 
@@ -108,5 +108,5 @@ docker build --pull --rm -f "Dockerfile" -t facemeliveness:latest "."
 docker run facemeliveness
 ```
 ## - Request license
-Subscribe free trial at our [Subscription Page]()
+Subscribe free trial at our [Subscription Page](mailto:support@faceme.tw)  
 You will get email with trial license key ("XXXXX-XXXXX-XXXXX-XXXXX").
