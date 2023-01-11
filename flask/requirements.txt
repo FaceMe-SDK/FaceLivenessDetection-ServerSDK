@@ -1,0 +1,3 @@
+opencv-python
+flask
+flask-cors
