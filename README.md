@@ -107,6 +107,6 @@ docker build --pull --rm -f "Dockerfile" -t facemeliveness:latest "."
 ```
 docker run facemeliveness
 ```
-## - Request license
+## Request license
 Subscribe free trial at our [Subscription Page](mailto:support@faceme.tw)  
 You will get email with trial license key ("XXXXX-XXXXX-XXXXX-XXXXX").
