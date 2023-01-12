@@ -52,7 +52,7 @@ cp ./bin/linux_x86_64/libimutils.so /usr/lib
 #### - Windows
 Contact us by Email support@faceme.tw
 #### - Request license
-Subscribe free trial at our [Subscription Page](mailto:support@faceme.tw)  
+Subscribe free trial at our [Subscription Page](https://sdk.faceme.tw/#contact-us)  
 You will get email with trial license key ("XXXXX-XXXXX-XXXXX-XXXXX").
   
 ## C++ Example
@@ -108,5 +108,5 @@ docker build --pull --rm -f "Dockerfile" -t facemeliveness:latest "."
 docker run facemeliveness
 ```
 ## Request license
-Subscribe free trial at our [Subscription Page](mailto:support@faceme.tw)  
+Subscribe free trial at our [Subscription Page](https://sdk.faceme.tw/#contact-us)  
 You will get email with trial license key ("XXXXX-XXXXX-XXXXX-XXXXX").
