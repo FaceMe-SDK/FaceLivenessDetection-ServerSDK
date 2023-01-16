@@ -22,7 +22,7 @@
   │  └─ main.cpp                      - # C++ example code
   ├─ flask                            - # Python flask API serving example
   │  ├─ app.py                        - # Flask example code
-  │  └─ requirement.txt               - # Python requirement list
+  │  └─ requirements.txt               - # Python requirement list
   ├─ model                            - # NN dictionary files for library
   │  ├─ data1.bin
   │  └─ data2.bin
@@ -74,7 +74,7 @@ make
 - Install dependencies
 ```
 cd python
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 - Run project
 ```
@@ -85,7 +85,7 @@ python main.py
 - Install dependencies
 ```
 cd flask
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 - Run project
 ```
