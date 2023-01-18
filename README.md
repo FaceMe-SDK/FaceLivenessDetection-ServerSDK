@@ -105,7 +105,7 @@ docker build --pull --rm -f "Dockerfile" -t facemeliveness:latest "."
 ```
 - Run image
 ```
-docker run facemeliveness
+docker run --network host facemeliveness
 ```
 ## Request license
 Subscribe free trial at our [Subscription Page](https://sdk.faceme.tw/#contact-us)  
