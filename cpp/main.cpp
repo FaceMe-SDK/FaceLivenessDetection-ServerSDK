@@ -54,7 +54,7 @@ int main(int argc, char *argv[]) {
         printf("no face detected!\n");
     } else if(ret > 1) {
         printf("multiple face detected!\n");
-    } else if(livenessScore > 0) {
+    } else if(livenessScore > 0.5) {
         printf("genuine -> face rect %d, %d, %d, %d, liveness score = %f\n", faceRect[0], faceRect[1], faceRect[2], faceRect[3], livenessScore);
     } else {
         printf("spoof -> face rect %d, %d, %d, %d, liveness score = %f\n", faceRect[0], faceRect[1], faceRect[2], faceRect[3], livenessScore);

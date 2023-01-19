@@ -46,7 +46,7 @@ def check_liveness():
       result = "no face detected!"
   elif ret > 1:
       result = "multiple face detected!"
-  elif livenessScore[0] > 0:
+  elif livenessScore[0] > 0.5:
       result = "genuine"
   else:
       result = "spoof"
@@ -75,7 +75,7 @@ def check_liveness_base64():
       result = "no face detected!"
   elif ret > 1:
       result = "multiple face detected!"
-  elif livenessScore[0] > 0:
+  elif livenessScore[0] > 0.5:
       result = "genuine"
   else:
       result = "spoof"

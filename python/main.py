@@ -41,7 +41,7 @@ if __name__ == '__main__':
         print("no face detected!");
     elif ret > 1:
         print("multiple face detected!");
-    elif livenessScore[0] > 0:
+    elif livenessScore[0] > 0.5:
         print(f"genuine -> face rect: {faceRect[0]}, {faceRect[1]}, {faceRect[2]}, {faceRect[3]}, liveness score: {livenessScore[0]}")
     else:
         print(f"spoof -> face rect: {faceRect[0]}, {faceRect[1]}, {faceRect[2]}, {faceRect[3]}, liveness score: {livenessScore[0]}")
